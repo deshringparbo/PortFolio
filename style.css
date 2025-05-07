@@ -508,7 +508,7 @@ body {
 }
 .name-box {
   height: 30px;
-  width: 498px;
+  width: 90%;
   border-radius: 10px;
   border: none;
   padding-left: 10px;
@@ -516,7 +516,7 @@ body {
 }
 .name-box2 {
   height: 59px;
-  width: 498px;
+  width: 90%;
   border-radius: 10px;
   border: none;
   padding-left: 10px;
