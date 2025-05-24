@@ -278,10 +278,37 @@ body {
   box-shadow: var(--box-shadow1);
 }
 
-.photo1 {
+/*.photo1 {
   height: 300px;
   width: 370px;
   background-color: rgb(0, 63, 119);
+  border-radius: var(--border-radius);
+}*/
+.photo1 {
+  height: 300px;
+  width: 370px;
+  /* background-color: rgb(0, 63, 119); */
+  background-image: url(portfolio.png);
+  background-repeat: none;
+  background-size: cover;
+  border-radius: var(--border-radius);
+}
+.photo2 {
+  height: 300px;
+  width: 370px;
+  background-color: rgb(0, 63, 119);
+  /* background-image: url(portfolio.png);
+  background-repeat: none;
+  background-size: cover; */
+  border-radius: var(--border-radius);
+}
+.photo3 {
+  height: 300px;
+  width: 370px;
+  background-color: rgb(0, 63, 119);
+  /* background-image: url(portfolio.png);
+  background-repeat: none;
+  background-size: cover; */
   border-radius: var(--border-radius);
 }
 .pro-infor {
