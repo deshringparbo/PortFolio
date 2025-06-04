@@ -71,7 +71,8 @@
     width: 100%;
     height: 160px;
     text-justify: auto;
-    margin-top: 10px;
+    font-size: 14px;
+    padding-bottom: 10px;
   }
 
 
