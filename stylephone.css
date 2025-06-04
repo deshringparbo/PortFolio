@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --navbar-background-color: rgb(215, 247, 247);
+  --background-color: azure;
+  --button-culor: rgb(11, 186, 11);
+  --button-color-hover: rgb(9, 207, 9);
+  --header-font-style: bold;
+  --border-radius: 20px;
+  --box-hover-shadow: 20px;
+  --transition-hover: scale(1.1);
+  --submit_button-background-color: rgb(25, 232, 255);
+  --font-used: Ariel;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-info {
+    display: block;
+    width: 90%;
+  }
+
+  .logo_user {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav-links {
+    width: 100%;
+    height: 2rem;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+    .nav-links a{
+
+    font-size: 16px;
+
+  }
+
+  /*================== HOME SECTION ===============================*/
+
+  .user-info h1 {
+    text-align: center;
+    font-size: 3vh;
+    height: 30%;
+  }
+
+  .user1-info {
+    height: 300px;
+    width: 300px;
+  }
+  .profile-user {
+    height: 200px;
+    width: 200px;
+  }
+
+  /*============================ ABOUT SECTION ==============================*/
+  .about-body2 {
+    flex-wrap: wrap;
+  }
+  .group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .about1 {
+    width: 100%;
+    text-justify: auto;
+  }
+
+  .about-btn {
+    height: 4rem;
+    width: 12rem;
+  }
+
+  /*=================== PROJECTS SECTION ==================*/
+
+  .project-body1{
+    height: 270px;
+    width: 270px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .project-inner-border{
+    height: 255px;
+    width: 250px;
+  }
+
+  /*==================== SKILLS SECTION ==========================*/
+
+  /*+++++++++++++    Pending..................         ++++++++++++ */
+
+
+  /*=================== CONTACT SECTION =========================*/
+
+  .contact-section{
+    height: auto;
+    width: 100%;
+  }
+  .contact-info{
+    height: 25rem;
+    width: 100%;
+  }
+   .contact-info h3{
+  text-align: center;
+  font-size: 2vh;
+ }
+
+ .contact-details{
+  height: 7rem;
+  width: 100%;
+  font-size: 2vh;
+
+ }
+ .all-details{
+  height: 25rem;
+  width: 20rem;
+}
+ .emails{
+  height: 40px;
+  padding-top: 10px;
+ }
+ .emails a{
+  padding-top: 10px;
+ }
+  .all-details{
+  height: 25rem;
+  width: 20rem;
+}
+
+.logos{
+  height: 15px;
+  width: 15px;
+}
+.contact-details{
+  padding-top: 20px;
+
+ }
+  .emails{
+  height: 50px;
+ }
+ .send{
+  height: 30px;
+  width: 100%;
+}
+ .send .button5{
+  height: 30px;
+  width: 100px;
+ }
+
+.social-links{
+  height: auto;
+  width: 50%;
+  margin-top: 10px;
+}
+.social-logo{
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-group{
+  height: auto;
+  width: 15rem;
+}
+/*======================= FOOTER SECTION ==============================*/
+.footer{
+  height: auto;
+  width: 99vw;
+  padding-top: 20px;
+  background-color: rgb(24, 24, 126);
+  color: aliceblue;
+}
+
+.footer-newsletter{
+  height: 250px;
+  width: 500px;
+} 
+
+.footer-newsletter p{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+.box-em{
+  height: 30px;
+  width: 50%;
+  border-radius: 5px;
+  padding-left: 20px;
+  margin-left: 20px;
+  border: none;
+}
+.footer-bottom p{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  font-size: 10px;
+}
+
+}
