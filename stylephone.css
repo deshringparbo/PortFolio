@@ -69,23 +69,23 @@
   }
   .about1 {
     width: 100%;
-    height: 160px;
-    text-justify: auto;
+    height: auto;
     font-size: 14px;
     padding-bottom: 10px;
-  }
 
+    
+  }
+  .about-id {
+    width: 35rem;
+    height: auto;
+    margin-top: 5px;
+   
+  }
 
   .about-btn {
     height: 4rem;
     width: 12rem;
-    margin-top: 10px;
   }
-  .about-id {
-  width: 35rem;
-  height: auto;
-  margin-top: 10px;
-}
 
   /*=================== PROJECTS SECTION ==================*/
 
