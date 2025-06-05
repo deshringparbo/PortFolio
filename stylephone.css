@@ -93,6 +93,7 @@
     height: 270px;
     width: 270px;
     margin: 0px 0px 0px 0px;
+    border-bottom: none;
   }
 
   .project-inner-border{
